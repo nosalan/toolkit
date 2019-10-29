@@ -15,4 +15,4 @@ You may specify your own command in the Kubernetes deployment yaml or in the doc
 sudo docker run --net=host -d --entrypoint=python3 nosalan/toolkit:latest -m http.server 8000
 ```
 
-Use `nosalan/toolkit:latest` label to access the image.
+Use `nosalan/toolkit:latest` label to access the image in Docker registry.
