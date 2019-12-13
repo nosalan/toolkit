@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM python:3.7.5-stretch
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
@@ -14,9 +14,6 @@ RUN apt-get update && \
       netcat \
       nmon \
       procps \
-      python3 \
-      python3-pip \
-      python3-setuptools \
       socat \
       telnet \
       tree \
