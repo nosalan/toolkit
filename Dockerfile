@@ -14,6 +14,7 @@ RUN apt-get update && \
       netcat \
       nmon \
       procps \
+      python3-setuptools \
       socat \
       telnet \
       tree \
