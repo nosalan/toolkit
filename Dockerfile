@@ -16,10 +16,12 @@ RUN apt-get update && \
       procps \
       python3 \
       python3-pip \
+      python3-setuptools \
       socat \
       telnet \
       tree \
-      wget 
+      wget \
+      vim
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash \
     && apt-get install nodejs -yq \
